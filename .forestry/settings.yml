@@ -6,6 +6,11 @@ webhook_url:
 sections:
 - type: heading
   label: Content
+- type: directory
+  path: content/transcriptions
+  label: Transcriptions
+  create: all
+  match: "**/*"
 - type: document
   path: content/about/info.md
   label: Info Page
